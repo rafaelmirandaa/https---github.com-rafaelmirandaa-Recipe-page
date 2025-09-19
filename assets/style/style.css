@@ -17,11 +17,18 @@ img{
     max-width: 100%;
 }
 
-.container{
+@font-face {
+    font-family: 'fuente';
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight:lighter;
+    font-style:normal;
+}
+
+/*.container{
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
-}
+}*/
 
 .attribution {
      font-size: 11px;
@@ -57,12 +64,17 @@ body{
 .container_header{
     display: flex;
     width: 100%;
-    height: 30%;
-    background-color: black;
+    height: 30rem;
     flex-direction:row;
 }
 
 .container_header img{
     width: 100%;
-    height: 100px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.title h1{
+    font-family: 'fuente', sans-serif;
+    font-weight: lighter;
 }
