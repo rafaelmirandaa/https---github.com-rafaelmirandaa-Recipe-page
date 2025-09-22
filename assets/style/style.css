@@ -145,10 +145,32 @@ body{
 hr{
    width: 100%;
    background-color: #814832; 
-   margin-top: 1.25rem;
+   margin-top: 1.75rem;
 }
 .instructions ol{
     margin: 0;
-    padding-left: 2rem;
+    padding-left: 2.56rem;
     padding-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.instructions ol li{
+    padding-left: 1rem;
+}
+
+.instructions ol li::marker{
+    color: #814832;
+    font-weight: bold;
+}
+.instructions li span{
+    color:#6D6660;
+    font-family: 'fuente2', sans-serif;
+    font-weight: 600;
+    margin-left: 0rem;
+}
+.instructions li span,
+.instructions li p {
+  display: inline;
+  text-align: justify;
+  line-height: 2;
+  font-family: 'fuente2', sans-serif;
 }
