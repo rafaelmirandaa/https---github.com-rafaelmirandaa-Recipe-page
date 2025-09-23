@@ -115,11 +115,13 @@ body{
    font-weight: bold;
    padding-left: 0.9rem;
 }
-.ingredients{
+.nutrition,
+.ingredients {
     width: 100%;
     height: 100%;
     background-color: #ffffff;
 }
+.nutrition h2,
 .ingredients h2,
 .instructions h2{
     font-family: 'fuente', sans-serif;
@@ -173,4 +175,51 @@ hr{
   text-align: justify;
   line-height: 2;
   font-family: 'fuente2', sans-serif;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse; /* une los bordes */
+  font-family: Arial, sans-serif;
+}
+
+.nutrition p{
+   font-family: 'fuente2', sans-serif;
+}
+
+.nutrition-table td{
+    font-family: 'fuente2', sans-serif;
+}
+
+
+.nutrition-table th,
+.nutrition-table td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #6D6660; /* línea debajo */
+}
+
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+
+.nutrition-table .td2{
+    color: #814832;
+    font-family: 'fuente2', sans-serif;
+    font-weight: bold;
+}
+
+
+
+/*
+@media (min-width:768px){
+    .dos-columnas{
+        display: grid;
+        grid-template-columns: 2;
+        column-gap: 5rem;
+    }
+}*/
+
+*.attribution{
+    margin-top: 2rem;
 }
