@@ -109,6 +109,13 @@ body{
 .preparation li::marker{
     color:#632D44;
 }
+.preparation p{
+  display: inline;
+  text-align: justify;
+  line-height: 2;
+  font-family: 'fuente2', sans-serif;
+}
+
 .preparation li span{
    font-family: 'fuente2', sans-serif;
    line-height: 2;
